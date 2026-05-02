@@ -152,3 +152,30 @@ Network devices help forward and manage traffic across networks.
 ## ❓ What I Didn’t Fully Understand Yet
 - Subnetting (to revisit later)
 - Deep differences between TCP and UDP in real scenarios
+
+
+## 🧪 Self-Assessment (Day 01–02)
+
+### Score
+- Multiple Choice: 5/6
+- Scenario-Based: 3/5
+
+### ✅ Strengths
+- Good understanding of OSI layers
+- Clear knowledge of network devices (router, switch, firewall)
+- Strong grasp of VPN and QoS concepts
+
+### ⚠️ Areas to Improve
+- Difference between TCP and UDP
+- OSI Layer mapping (IP vs TCP/UDP)
+- Role of Data Link Layer
+- Difference between CDN and Load Balancer
+
+### 📌 Key Corrections
+- Network Layer (Layer 3) uses IP addresses
+- Transport Layer (Layer 4) uses TCP/UDP
+- CDN improves global content delivery
+- Load Balancer distributes traffic across servers
+
+### 🧠 Reflection
+I understand the fundamentals of networking and OSI layers, but I need to strengthen my understanding of protocols and how different network components interact in real-world scenarios.
