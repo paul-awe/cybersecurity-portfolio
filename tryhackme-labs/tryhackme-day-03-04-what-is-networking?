@@ -1,0 +1,88 @@
+# 🌐 TryHackMe — What is Networking? (Day 03–04)
+
+![What is Networking Completion](../assets/what-is-networking.jpg)
+
+## 📌 Overview
+I completed the **“What is Networking?”** module on TryHackMe as part of my cybersecurity learning journey.
+
+This room introduced the **very basics of networking**, focusing on how devices connect, identify each other, and communicate across networks.
+
+---
+
+## 🧠 What I Learned
+
+### 🔗 What a Network Is
+- Networks are simply **things connected together**
+- The **Internet** is one giant network made up of many smaller networks
+
+---
+
+### 🌍 Types of Networks
+- Small networks are called **private networks**
+- Networks that connect these smaller networks are called **public networks**
+
+---
+
+### 🆔 Device Identification
+Devices on a network have **two ways to identify themselves**:
+
+#### 1. IP Address
+- A set of numbers divided into **four octets**
+- Used to identify devices on a network
+- Cannot be active more than once in the same network
+- Can change depending on the network
+
+- **Public IP Address**
+  - Identifies a device on the Internet
+
+- **Private IP Address**
+  - Identifies a device within a local network
+
+- Two types of IP addresses:
+  - **IPv4**
+  - **IPv6**
+
+---
+
+#### 2. MAC Address (Media Access Control)
+- A **unique physical address** assigned to a device
+- Stored on a network interface (hardware chip on the motherboard)
+- Assigned at the factory
+
+⚠️ MAC addresses can be **spoofed**
+- Spoofing = pretending to be another device on the network
+
+---
+
+### 📡 Ping & Connectivity
+- **Ping** is a basic networking tool
+- Uses **ICMP (Internet Control Message Protocol)**
+
+Ping is used to:
+- Check if a connection exists
+- Test if a connection is reliable
+- Measure basic network performance
+
+You can ping:
+- Devices on a network
+- Websites and external resources
+
+---
+
+## 🛠️ Key Takeaways
+- Networks are the foundation of all communication in IT
+- Devices rely on **IP and MAC addresses** to identify each other
+- Understanding **public vs private networks** is essential
+- Tools like **ping** help test connectivity and troubleshoot issues
+
+---
+
+## 🚀 Next Steps
+- OSI Model
+- TCP/IP Model
+- Deeper understanding of networking protocols
+
+---
+
+## 📁 Portfolio Note
+This lab is part of my **cybersecurity learning journey**, documenting hands-on practice and foundational knowledge.
