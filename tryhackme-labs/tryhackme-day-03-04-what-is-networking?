@@ -1,73 +1,71 @@
-# 🌐 TryHackMe — What is Networking? (Day 03–04)
+# TryHackMe — What is Networking?
 
-![What is Networking Completion](../assets/what-is-networking.jpg)
+## 🧠 What I learned
 
-## 📌 Overview
-I completed the **“What is Networking?”** module on TryHackMe as part of my cybersecurity learning journey.
+- Networks are simply things connected.
 
-This room introduced the **very basics of networking**, focusing on how devices connect, identify each other, and communicate across networks.
+- The Internet is one giant network made up of many smaller networks.
 
----
-
-## 🧠 What I Learned
-
-### 🔗 What a Network Is
-- Networks are simply **things connected together**
-- The **Internet** is one giant network made up of many smaller networks
+- Small networks are called **private networks**, while networks that connect these smaller networks are called **public networks**.
 
 ---
 
-### 🌍 Types of Networks
-- Small networks are called **private networks**
-- Networks that connect these smaller networks are called **public networks**
+## 🆔 Device Identification
 
----
+Devices have two ways to identify themselves on a network:
 
-### 🆔 Device Identification
-Devices on a network have **two ways to identify themselves**:
-
-#### 1. IP Address
-- A set of numbers divided into **four octets**
-- Used to identify devices on a network
-- Cannot be active more than once in the same network
+### IP Address
+- A set of numbers divided into four octets
 - Can change depending on the network
+- Cannot be used more than once at the same time within the same network
 
-- **Public IP Address**
-  - Identifies a device on the Internet
+- Public IP → used to identify a device on the Internet  
+- Private IP → used to identify a device within a local network  
 
-- **Private IP Address**
-  - Identifies a device within a local network
-
-- Two types of IP addresses:
-  - **IPv4**
-  - **IPv6**
+- Two types:
+  - IPv4
+  - IPv6
 
 ---
 
-#### 2. MAC Address (Media Access Control)
-- A **unique physical address** assigned to a device
+### MAC Address (Media Access Control)
+- A unique physical address assigned to a device
 - Stored on a network interface (hardware chip on the motherboard)
 - Assigned at the factory
 
-⚠️ MAC addresses can be **spoofed**
-- Spoofing = pretending to be another device on the network
+- MAC addresses can be **spoofed**
+  - Spoofing = pretending to be another device on a network
 
 ---
 
-### 📡 Ping & Connectivity
-- **Ping** is a basic networking tool
+## 📡 Ping
+
+- Ping is a basic networking tool
 - Uses **ICMP (Internet Control Message Protocol)**
 
-Ping is used to:
+Used to:
 - Check if a connection exists
 - Test if a connection is reliable
-- Measure basic network performance
 
 You can ping:
 - Devices on a network
-- Websites and external resources
+- Websites / external resources
 
 ---
+
+## 📸 Proof of Completion
+
+![What is Networking](../assets/what-is-networking.jpg)
+
+---
+
+## 📌 Notes
+
+This was a very basic introduction, but it helped me understand:
+- How devices are identified on a network
+- The difference between public and private networks
+- The role of simple tools like ping
+
 
 ## 🛠️ Key Takeaways
 - Networks are the foundation of all communication in IT
