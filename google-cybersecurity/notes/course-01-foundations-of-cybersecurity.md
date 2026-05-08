@@ -105,7 +105,7 @@ https://coursera.org/verify/AMSSDSVUQ1N6 :contentReference[oaicite:2]{index=2}
 
 ## 📘 Glossary
 
-I compiled key terms from this course here:
+Attached is a glossary of key terms from the course:
 
 👉 [View Glossary](../assets/google-cybersecurity-course-01-glossary.pdf)
 
