@@ -65,7 +65,7 @@ Operator	Description
 
 ## 📸 Proof of Completion
 
-![test](../assets/linux-fundamentals-part-1.jpg)
+![Linux Fundamentals Part 1](../assets/linux-fundamentals-part-1.jpg)
 
 📌 Notes
 
