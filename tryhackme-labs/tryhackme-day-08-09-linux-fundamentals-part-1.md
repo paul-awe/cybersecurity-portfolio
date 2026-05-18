@@ -65,7 +65,7 @@ Operator	Description
 
 📸 Proof of Completion
 
-![Linux Fundamentals Part 1](../assets/linux-fundamentals-part-1.jpg)
+![Linux Fundamentals Part 1](https://raw.githubusercontent.com/Orion-007/Orion-cybersecurity-portfolio/main/assets/linux-fundamentals-part-1.jpg)
 
 📌 Notes
 
