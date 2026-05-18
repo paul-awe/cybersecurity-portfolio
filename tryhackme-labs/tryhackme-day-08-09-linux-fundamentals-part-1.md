@@ -65,7 +65,7 @@ Operator	Description
 
 📸 Proof of Completion
 
-![Linux Fundamentals Part 1](../assets/linux-fundamentals-part-1.jpg)
+![Offensive Security Intro Completion](../assets/offensive-security-intro.jpg)
 
 📌 Notes
 
