@@ -62,7 +62,10 @@ Operator	Description
 &&	Combines multiple commands in one line
 >	Redirects output and overwrites existing content
 >>	Redirects output and appends without overwriting
-📸 Proof of Completion
+
+## 📸 Proof of Completion
+
+![Linux Fundamentals Part 1](../assets/linux-fundamentals-part-1.jpg)
 
 📌 Notes
 
