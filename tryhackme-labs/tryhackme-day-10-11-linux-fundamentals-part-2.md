@@ -9,7 +9,7 @@
 - This ensures secure remote access
 
 #### Example usage:
-```bash
+
 ssh username@IP_address
 
 🚪 Logging into a Remote Machine
@@ -107,7 +107,7 @@ Commonly used in penetration testing
 
 ## 📸 Proof of Completion
 
-<img src="../assets/linux-fundamentals-part-2.jpg" alt="Linux Fundamentals Part 2" width="700">
+![Linux Fundamentals Part 2](../assets/linux-fundamentals-part-2.jpg)
 
 📌 Notes
 
