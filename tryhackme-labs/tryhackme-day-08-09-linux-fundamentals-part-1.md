@@ -67,6 +67,8 @@ Operator	Description
 
 ![Offensive Security Intro Completion](../assets/offensive-security-intro.jpg)
 
+<img width="1791" height="1224" alt="linux-fundamentals-part-1" src="https://github.com/user-attachments/assets/2239982d-a512-4de3-90f7-d30da7e5579a" />
+
 📌 Notes
 
 This room helped me understand:
