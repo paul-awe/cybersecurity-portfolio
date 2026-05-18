@@ -9,7 +9,6 @@
 | `echo` | Outputs text provided by the user |
 | `whoami` | Shows the current logged-in user |
 
----
 
 ## 📁 Interacting With the Filesystem
 
@@ -20,8 +19,6 @@
 | `cat` | Concatenate | Displays file contents |
 | `pwd` | Print Working Directory | Shows current directory location |
 
----
-
 ## 🔎 Searching for Files
 
 ### Using `find`
@@ -30,7 +27,6 @@
 
 Example:
 
-```bash
 find -name passwords.txt
 
 To find all .txt files:
@@ -47,6 +43,7 @@ wc -l access.log
 Example: Search for an IP address inside a log file:
 
 grep "81.143.211.90" access.log
+
 🔁 Recursive Search With grep
 grep -R searches through files and subdirectories
 
@@ -65,9 +62,9 @@ Operator	Description
 
 📸 Proof of Completion
 
-![Offensive Security Intro Completion](../assets/offensive-security-intro.jpg)
+## 📸 Proof of Completion
 
-<img width="1791" height="1224" alt="linux-fundamentals-part-1" src="https://github.com/user-attachments/assets/2239982d-a512-4de3-90f7-d30da7e5579a" />
+![Linux Fundamentals Part 2](../assets/linux-fundamentals-part-1.jpg)
 
 📌 Notes
 
