@@ -107,7 +107,7 @@ Commonly used in penetration testing
 
 ## 📸 Proof of Completion
 
-![Linux Fundamentals Part 2](../assets/linux-fundamentals-part-2.jpg)
+![Linux Fundamentals Part 2](assets/linux-fundamentals-part-2.jpg)
 
 📌 Notes
 
