@@ -1,370 +1,207 @@
 # TryHackMe Day 48–49: Data Encoding
 
-## Room Information
-
-**Room:** Data Encoding  
-**Platform:** TryHackMe  
-**Difficulty:** Beginner  
-**Focus Area:** ASCII, Unicode, UTF-8, Character Encoding, Data Representation
-
----
-
 ## Overview
 
-In this room, I learned how computers represent and store text using different encoding standards. While computers fundamentally operate using binary data, humans communicate using letters, numbers, symbols, and emojis. Data encoding provides the bridge between human-readable characters and machine-readable binary values.
+In this room, I learned how computers store and represent text using different encoding standards. Since computers only understand binary data, every letter, number, symbol, and emoji must be converted into numerical values before they can be stored or displayed.
 
-The room introduced character encoding standards such as ASCII and Unicode and explained how modern systems use UTF encodings to support languages and symbols from around the world.
-
----
-
-## Learning Objectives
-
-By completing this room, I learned how to:
-
-- Understand the purpose of data encoding
-- Learn how computers represent text characters
-- Understand the ASCII character set
-- Explore Unicode and its importance
-- Learn how UTF encoding works
-- Understand why modern systems use Unicode
-- Recognize common encoding standards used in computing
+The room explored the evolution of character encoding from ASCII to Unicode and explained how modern systems represent text from multiple languages while maintaining compatibility across different platforms.
 
 ---
 
-# What is Data Encoding?
+## Key Concepts Learned
 
-Data encoding is the process of converting information into a format that computers can store, process, and transmit.
+### 1. What is Data Encoding?
 
-Examples of information that can be encoded include:
-
-- Letters
-- Numbers
-- Symbols
-- Emojis
-- Foreign language characters
-
-Since computers only understand binary values (0s and 1s), every character must be assigned a numerical representation.
-
----
-
-# Why Data Encoding is Important
-
-Imagine receiving the following binary value:
-
-```text
-01000001
-```
-
-Without a standard encoding system, different computers might interpret this value differently.
-
-Encoding standards ensure that:
-
-- Computers interpret characters consistently
-- Data can be shared across devices
-- Different operating systems remain compatible
-- Multiple languages can be supported
-
----
-
-# ASCII (American Standard Code for Information Interchange)
-
-ASCII was one of the first widely adopted character encoding standards.
-
-It assigns a unique numeric value to each character.
+Data encoding is the process of assigning numeric values to characters so computers can store and process text.
 
 Examples:
 
-| Character | ASCII Value |
-|------------|-------------|
-| A | 65 |
-| B | 66 |
-| C | 67 |
-| a | 97 |
-| b | 98 |
-| c | 99 |
-| 0 | 48 |
-| 1 | 49 |
-| 2 | 50 |
+- A
+- B
+- 5
+- !
+- 😊
+
+All of these characters are represented internally as numbers.
+
+Without encoding standards, computers would not know how to interpret stored binary data as readable text.
 
 ---
 
-## ASCII in Binary
+### 2. ASCII (American Standard Code for Information Interchange)
 
-Computers store ASCII values as binary.
+ASCII was one of the earliest text encoding standards.
+
+Key facts:
+
+- Introduced in 1963
+- Uses 7 bits
+- Supports 128 characters
+- Covers English letters, numbers, punctuation, and control characters
+
+Examples:
+
+| Character | Decimal | Hex |
+|------------|----------|-----|
+| A | 65 | 41 |
+| B | 66 | 42 |
+| a | 97 | 61 |
+| 0 | 48 | 30 |
+| 9 | 57 | 39 |
+
+ASCII allowed computers to store text consistently by assigning each character a unique numeric value.
+
+---
+
+### 3. How Text is Stored
+
+The room demonstrated how the word:
+
+```
+TryHackMe
+```
+
+can be represented as binary values.
 
 Example:
 
-```text
-Character: A
-ASCII: 65
-Binary: 01000001
+```
+T = 01010100
+r = 01110010
+y = 01111001
 ```
 
-Example:
-
-```text
-Character: B
-ASCII: 66
-Binary: 01000010
-```
-
-This allows computers to display readable text from binary data.
+Computers store text as a sequence of binary values and later convert those values back into readable characters.
 
 ---
 
-## ASCII Limitations
+### 4. Limitations of ASCII
 
-ASCII originally used:
+ASCII works well for English but lacks support for many international characters.
 
-```text
-7 bits
-```
+Examples:
 
-This allowed only:
+- ñ
+- ü
+- ł
+- č
+- ș
 
-```text
-128 characters
-```
+To support additional languages, extended standards such as:
 
-ASCII works well for English but struggles with:
+- ISO-8859-1 (Latin-1)
+- ISO-8859-2 (Latin-2)
 
-- Accented characters
-- Foreign languages
-- Special symbols
-- Emojis
+were introduced.
 
-As technology expanded globally, a more comprehensive solution became necessary.
+However, using different encoding standards often caused characters to display incorrectly.
 
 ---
 
-# Unicode
+### 5. Why Gibberish Characters Appear
 
-Unicode was created to solve ASCII's limitations.
+One of the most interesting lessons was understanding why text sometimes appears as random symbols or unreadable characters.
 
-Its goal is to provide a unique identifier for every character used worldwide.
+This usually happens when:
 
-Unicode supports:
+- A file is saved using one encoding
+- It is opened using a different encoding
 
-- English
-- Spanish
-- Arabic
-- Chinese
-- Japanese
-- Korean
-- Russian
-- Mathematical symbols
-- Emojis
-
-and thousands of other characters.
+Because the numeric values are interpreted differently, the displayed characters become corrupted.
 
 ---
 
-## Unicode Code Points
+### 6. Unicode
 
-Every Unicode character receives a unique code point.
+Unicode was created to solve the limitations of older encoding standards.
+
+Unicode provides:
+
+- A universal character set
+- Support for virtually every language
+- Support for symbols and emojis
+- Consistent representation across platforms
 
 Examples:
 
 | Character | Unicode |
 |------------|----------|
 | A | U+0041 |
-| B | U+0042 |
-| € | U+20AC |
-| 😀 | U+1F600 |
+| Ω | U+03A9 |
+| あ | U+3042 |
+| 😊 | U+1F60A |
 
-The "U+" prefix indicates a Unicode code point.
-
----
-
-# Why Unicode Matters
-
-Without Unicode:
-
-- International communication would be difficult
-- Websites would display incorrect characters
-- Documents could become unreadable
-- Applications would have compatibility issues
-
-Unicode ensures consistency across modern computing systems.
+Unicode allows multiple languages to exist within the same document without compatibility issues.
 
 ---
 
-# UTF (Unicode Transformation Format)
+### 7. UTF-8, UTF-16 and UTF-32
 
-Unicode defines characters.
+Unicode characters must still be stored in memory.
 
-UTF defines how those characters are stored in binary.
+The room introduced three common Unicode encoding methods.
 
-Common UTF formats include:
+#### UTF-8
 
-- UTF-8
-- UTF-16
-- UTF-32
-
----
-
-## UTF-8
-
-UTF-8 is the most widely used encoding format today.
-
-Advantages:
-
-- Compatible with ASCII
+- Uses 1–4 bytes
+- Most common on the modern web
+- Backward compatible with ASCII
 - Efficient storage
-- Supports all Unicode characters
-- Widely used on the internet
 
-Most websites use UTF-8 encoding.
+#### UTF-16
 
----
+- Uses 2 or 4 bytes
+- Common in Windows and Java environments
 
-## UTF-16
+#### UTF-32
 
-UTF-16 uses:
-
-```text
-16-bit units
-```
-
-Advantages:
-
-- Efficient for many international languages
-- Commonly used in Windows environments
+- Always uses 4 bytes
+- Simplest representation
+- Uses the most storage space
 
 ---
 
-## UTF-32
+### 8. Emoji and Special Character Encoding
 
-UTF-32 uses:
+Modern encoding standards support emojis and special symbols.
 
-```text
-32 bits per character
-```
+Examples:
 
-Advantages:
-
-- Fixed character size
-- Simple processing
-
-Disadvantage:
-
-- Requires significantly more storage space
-
----
-
-# Character Encoding Example
-
-Consider the word:
-
-```text
-Cyber
-```
-
-ASCII representation:
-
-| Character | Decimal |
+| Character | Unicode |
 |------------|----------|
-| C | 67 |
-| y | 121 |
-| b | 98 |
-| e | 101 |
-| r | 114 |
+| 😊 | U+1F60A |
+| 🔥 | U+1F525 |
+| ♞ | U+265E |
+| 龍 | U+9F8D |
+| ツ | U+30C4 |
 
-These values are then converted into binary for storage.
-
----
-
-# Encoding and Cybersecurity
-
-Data encoding plays an important role in cybersecurity because analysts regularly encounter encoded information.
-
-Examples include:
-
-- Network packets
-- Log files
-- Web traffic
-- Malware analysis
-- Forensic investigations
-- Programming and scripting
-
-Understanding encoding helps security professionals correctly interpret and analyze data.
+This demonstrates how Unicode can represent content far beyond traditional alphabets.
 
 ---
 
-# Common Real-World Uses
+## What I Learned
 
-Data encoding is used in:
+Through this room, I learned:
 
-### Websites
-
-Web pages commonly use UTF-8.
-
-### Email Systems
-
-Messages are encoded before transmission.
-
-### Databases
-
-Text records require encoding standards.
-
-### Mobile Applications
-
-Apps use Unicode to support global users.
-
-### Operating Systems
-
-Modern operating systems rely heavily on Unicode support.
+- How computers represent text using numbers
+- The purpose of ASCII encoding
+- Why ASCII became insufficient for global languages
+- How Unicode solved international character support problems
+- Differences between UTF-8, UTF-16, and UTF-32
+- How emojis are stored and displayed
+- Why encoding mismatches create unreadable text
 
 ---
 
-# ASCII vs Unicode
-
-| Feature | ASCII | Unicode |
-|-----------|-----------|-----------|
-| Character Support | 128 Characters | Millions of Characters |
-| Language Support | Mostly English | Global Languages |
-| Emoji Support | No | Yes |
-| Modern Standard | No | Yes |
-| Internet Usage | Limited | Extensive |
-
----
-
-# Key Concepts Learned
-
-| Concept | Description |
-|-----------|-------------|
-| Data Encoding | Converting information into a computer-readable format |
-| ASCII | Early character encoding standard |
-| Unicode | Universal character set |
-| UTF-8 | Most common Unicode encoding format |
-| UTF-16 | Unicode encoding using 16-bit units |
-| UTF-32 | Unicode encoding using 32-bit units |
-| Code Point | Unique Unicode identifier for a character |
-
----
-
-# Skills Gained
+## Skills Gained
 
 - Character Encoding Fundamentals
-- ASCII Understanding
-- Unicode Fundamentals
-- UTF-8 Awareness
-- Binary Data Interpretation
+- ASCII Encoding
+- Unicode Standards
+- UTF-8 / UTF-16 / UTF-32
+- Binary Representation of Text
+- Troubleshooting Encoding Issues
 - Data Representation Concepts
-- Cybersecurity Data Analysis Foundations
-- Technical Problem Solving
-
----
-
-# Key Takeaways
-
-- Computers store text using character encoding standards.
-- ASCII was one of the earliest encoding systems.
-- Unicode was developed to support global communication.
-- UTF formats define how Unicode characters are stored.
-- UTF-8 is the most widely used encoding standard today.
-- Encoding is essential for websites, applications, databases, and communication systems.
-- Understanding encoding helps cybersecurity professionals interpret digital evidence and network traffic.
 
 ---
 
@@ -372,16 +209,16 @@ Modern operating systems rely heavily on Unicode support.
 
 ![Data Encoding](../assets/data-encoding.jpg)
 
----
-
-# Reflection
-
-This room helped me understand how computers store and display text across different languages and platforms. Learning about ASCII, Unicode, and UTF-8 showed me the importance of standardized encoding systems in modern computing.
-
-As a cybersecurity student, understanding data encoding is valuable because encoded data appears frequently in network traffic, logs, applications, scripts, and forensic investigations. This knowledge strengthens my foundation for future topics such as programming, web security, malware analysis, and digital forensics.
+Successfully completed the **Data Encoding** room on TryHackMe as part of my cybersecurity learning journey.
 
 ---
 
-**Platform:** TryHackMe  
-**Room:** Data Encoding  
-**Completed:** Day 48–49 of My Cybersecurity Learning Journey
+### Repository Structure
+
+```text
+tryhackme-labs/
+└── tryhackme-day-48-49-data-encoding.md
+
+assets/
+└── data-encoding.jpg
+```
