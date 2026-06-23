@@ -11,12 +11,6 @@
 
 ---
 
-## Completion Badge
-
-![Windows Basics](../assets/windows-basics.jpg)
-
----
-
 ## Overview
 
 In this room, I explored the fundamentals of the Microsoft Windows operating system and learned how to navigate its graphical interface, manage files, configure settings, install applications, and use built-in security tools.
@@ -708,6 +702,12 @@ The main dashboard for managing built-in Windows security features.
 ## Windows Defender Firewall
 
 Built-in firewall protecting against unauthorized network access.
+
+---
+
+## Completion Badge
+
+![Windows Basics](../assets/windows-basics.jpg)
 
 ---
 
