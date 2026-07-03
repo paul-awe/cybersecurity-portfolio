@@ -105,7 +105,7 @@ Examples:
 
 ## 📸 Proof of Completion
 
-![OSI Model](../assets/osi-model.jpg)
+![OSI Model](../../assets/osi-model.jpg)
 
 ---
 
