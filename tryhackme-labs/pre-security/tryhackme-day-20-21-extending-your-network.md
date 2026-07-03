@@ -302,7 +302,7 @@ These concepts form the foundation for network security, penetration testing, SO
 
 ## Screenshot
 
-![Extending Your Network Completion](../assets/extending-your-network.jpg)
+![Extending Your Network Completion](../../assets/extending-your-network.jpg)
 
 ---
 
