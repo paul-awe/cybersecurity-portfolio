@@ -498,7 +498,7 @@ Most modern cybersecurity roles require a strong understanding of web technologi
 
 ## Screenshot
 
-![How Websites Work Completion](../assets/how-websites-work.jpg)
+![How Websites Work Completion](../../assets/how-websites-work.jpg)
 
 ---
 
