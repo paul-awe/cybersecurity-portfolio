@@ -420,7 +420,7 @@ Although octal is less commonly used today, it still appears in some Linux and U
 
 ## Completion Badge
 
-![Data Representation](../assets/data-representation.jpg)
+![Data Representation](../../assets/data-representation.jpg)
 
 ---
 
