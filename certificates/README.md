@@ -5,7 +5,7 @@
 **Completed:** 3 July 2026  
 **Duration:** 19 hours 10 minutes
 
-[![Pre Security Certificate](pre-security-certificate.jpg)](certificates/pre-security-certificate.pdf)
+[![Pre Security Certificate](pre-security-certificate.jpg)](pre-security-certificate.pdf)
 
 ---
 
