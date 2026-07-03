@@ -393,7 +393,7 @@ Learning JavaScript fundamentals provides an important foundation for future web
 
 ## Completion Badge
 
-![JavaScript Simple Demo](../assets/javascript-simple-demo.jpg)
+![JavaScript Simple Demo](../../assets/javascript-simple-demo.jpg)
 
 Successfully completed the **JavaScript: Simple Demo** room on TryHackMe as part of my cybersecurity learning journey.
 
