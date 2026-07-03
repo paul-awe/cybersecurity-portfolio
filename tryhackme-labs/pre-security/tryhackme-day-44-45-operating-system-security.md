@@ -263,7 +263,7 @@ This primarily impacts availability but may also threaten confidentiality and in
 
 ## Completion Badge
 
-![Operating System Security](../assets/operating-system-security.jpg)
+![Operating System Security](../../assets/operating-system-security.jpg)
 
 ---
 
