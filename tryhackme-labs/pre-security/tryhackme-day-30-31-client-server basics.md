@@ -307,7 +307,7 @@ This process happens in seconds but involves multiple networking components work
 
 Completed the **Client-Server Basics** room on TryHackMe.
 
-![Completion Badge](../assets/client-server-basics.jpg)
+![Completion Badge](../../assets/client-server-basics.jpg)
 
 ---
 
