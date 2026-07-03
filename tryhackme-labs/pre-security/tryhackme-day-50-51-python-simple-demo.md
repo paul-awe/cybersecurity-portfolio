@@ -325,6 +325,6 @@ Learning Python fundamentals provides a strong foundation for future cybersecuri
 
 ## Completion Badge
 
-![Python Simple Demo](../assets/python-simple-demo.jpg)
+![Python Simple Demo](../../assets/python-simple-demo.jpg)
 
 Successfully completed the **Python: Simple Demo** room on TryHackMe as part of my cybersecurity learning journey.
