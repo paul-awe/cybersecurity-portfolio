@@ -132,7 +132,7 @@ Then:
 
 ## 📸 Proof of Completion
 
-![Packets & Frames](../assets/packets-&-frames.jpg)
+![Packets & Frames](../../assets/packets-&-frames.jpg)
 
 ---
 
