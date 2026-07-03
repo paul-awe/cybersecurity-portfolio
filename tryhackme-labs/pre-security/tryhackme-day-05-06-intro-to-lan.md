@@ -88,7 +88,7 @@
 
 ## 📸 Proof of Completion
 
-![Intro to LAN](../assets/intro-to-lan.jpg)
+![Intro to LAN](../../assets/intro-to-lan.jpg)
 
 ---
 
