@@ -130,7 +130,7 @@ Example (run every 12 hours):
 
 ## 📸 Proof of Completion
 
-![Linux Fundamentals Part 3](../assets/linux-fundamentals-part-3.jpg)
+![Linux Fundamentals Part 3](../../assets/linux-fundamentals-part-3.jpg)
 
 ---
 
