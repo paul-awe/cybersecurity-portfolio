@@ -503,7 +503,7 @@ Many modern cyberattacks target web applications and their supporting infrastruc
 
 ## Completion Screenshot
 
-![Putting It All Together Completion](../assets/putting-it-all-together.jpg)
+![Putting It All Together Completion](../../assets/putting-it-all-together.jpg)
 
 ---
 
