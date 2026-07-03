@@ -435,7 +435,7 @@ Understanding DNS is essential for penetration testing, blue team operations, SO
 
 ## Completion Screenshot
 
-![DNS in Detail Completion](../assets/dns-in-detail.jpg)
+![DNS in Detail Completion](../../assets/dns-in-detail.jpg)
 
 ---
 
