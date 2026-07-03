@@ -212,7 +212,7 @@ Many Security Operations Centers (SOCs) use SQL to investigate alerts, analyze l
 
 ## Room Completed ✅
 
-![Database SQL Basics Completion Badge](../assets/database-sql-basics.jpg)
+![Database SQL Basics Completion Badge](../../assets/database-sql-basics.jpg)
 
 ---
 
