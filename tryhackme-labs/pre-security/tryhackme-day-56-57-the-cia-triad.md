@@ -158,7 +158,7 @@ I successfully completed the **The CIA Triad** room on TryHackMe as part of my c
 
 **Completion Badge**
 
-![The CIA Triad Completion](../assets/the-cia-triad.jpg)
+![The CIA Triad Completion](../../assets/the-cia-triad.jpg)
 
 ---
 
