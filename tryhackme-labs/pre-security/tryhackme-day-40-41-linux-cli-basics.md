@@ -649,7 +649,7 @@ A strong Linux foundation is essential for success in cybersecurity.
 ---
 ## Completion Badge
 
-![Linux CLI Basics](../assets/linux-cli-basics.jpg)
+![Linux CLI Basics](../../assets/linux-cli-basics.jpg)
 
 ---
 ## Reflection
