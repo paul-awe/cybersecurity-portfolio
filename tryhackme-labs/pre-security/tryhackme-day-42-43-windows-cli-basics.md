@@ -268,7 +268,7 @@ This information helps determine how the system communicates on a network.
 
 ## Completion Badge
 
-![Windows CLI Basics](../assets/windows-cli-basics.jpg)
+![Windows CLI Basics](../../assets/windows-cli-basics.jpg)
 
 ---
 
