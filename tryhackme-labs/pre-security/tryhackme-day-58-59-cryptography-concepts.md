@@ -197,4 +197,4 @@ This room helped me understand how encryption works behind the scenes whenever I
 
 ## 📸 Proof of Completion
 
-![Cryptography Concepts](../assets/cryptography-concepts.jpg)
+![Cryptography Concepts](../../assets/cryptography-concepts.jpg)
