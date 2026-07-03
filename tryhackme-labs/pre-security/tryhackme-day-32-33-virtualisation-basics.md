@@ -355,7 +355,7 @@ This structure allows organizations to maximize hardware utilization while maint
 
 Completed the **Virtualisation Basics** room on TryHackMe.
 
-![Completion Badge](../assets/virtualisation-basics.jpg)
+![Completion Badge](../../assets/virtualisation-basics.jpg)
 
 ---
 
