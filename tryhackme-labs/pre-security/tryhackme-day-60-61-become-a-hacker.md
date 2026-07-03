@@ -206,4 +206,4 @@ This room was a great introduction to offensive security and gave me my first ex
 
 ## 📸 Proof of Completion
 
-![Become a Hacker](../assets/become-a-hacker.jpg)
+![Become a Hacker](../../assets/become-a-hacker.jpg)
