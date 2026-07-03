@@ -632,7 +632,7 @@ A strong understanding of HTTP is essential for web security assessments and inc
 
 ## Screenshot
 
-![HTTP in Detail Completion](../assets/http-in-detail.jpg)
+![HTTP in Detail Completion](../../assets/http-in-detail.jpg)
 
 ---
 
