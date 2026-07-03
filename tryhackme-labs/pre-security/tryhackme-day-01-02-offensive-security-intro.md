@@ -29,7 +29,7 @@ This room introduced the concept of offensive security, focusing on how attacker
 
 ## 📸 Proof of Completion
 
-![Offensive Security Intro Completion](../assets/offensive-security-intro.jpg)
+![Offensive Security Intro Completion](../../assets/offensive-security-intro.jpg)
 
 ---
 
