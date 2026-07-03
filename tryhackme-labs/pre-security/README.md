@@ -15,4 +15,4 @@ This folder contains my notes and write-ups while completing the TryHackMe Pre S
 
 ## Learning Path Certificate
 
-📜 [Pre Security Certificate](../../certificates/pre-security-certificate.pdf)
+📜 [Pre Security Certificate](../../certifications/pre-security-certificate.pdf)
