@@ -211,7 +211,7 @@ Strong OS knowledge provides the foundation needed for both defensive and offens
 
 ## Screenshot
 
-![Operating Systems Introduction Completion](../assets/operating-systems-introduction.jpg)
+![Operating Systems Introduction Completion](../../assets/operating-systems-introduction.jpg)
 
 ---
 
