@@ -231,4 +231,4 @@ This room gave me a solid introduction to Blue Team responsibilities and helped 
 
 ## 📸 Proof of Completion
 
-![Become a Defender](../assets/become-a-defender.jpg)
+![Become a Defender](../../assets/become-a-defender.jpg)
