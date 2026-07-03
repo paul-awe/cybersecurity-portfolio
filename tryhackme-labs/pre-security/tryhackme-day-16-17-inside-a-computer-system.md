@@ -111,7 +111,7 @@ Common connections:
 
 ## 📸 Proof of Completion
 
-![Inside a Computer System](../assets/inside-a-computer-system.jpg)
+![Inside a Computer System](../../assets/inside-a-computer-system.jpg)
 
 ---
 
