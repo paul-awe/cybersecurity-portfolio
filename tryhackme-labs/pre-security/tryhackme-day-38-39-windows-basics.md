@@ -707,7 +707,7 @@ Built-in firewall protecting against unauthorized network access.
 
 ## Completion Badge
 
-![Windows Basics](../assets/windows-basics.jpg)
+![Windows Basics](../../assets/windows-basics.jpg)
 
 ---
 
