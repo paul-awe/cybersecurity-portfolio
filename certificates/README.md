@@ -1,8 +1,19 @@
-## 🏆 Learning Path Certificates
+# 🏆 Learning Path Certificates
 
-| Learning Path | Status | Certificate |
-|---------------|--------|-------------|
-| ✅ Pre Security | Completed (03 Jul 2026) | [View Certificate](pre-security-certificate.pdf) |
-| ⏳ Cyber Security 101 | In Progress | - |
-| ⏳ Junior Penetration Tester | Planned | - |
-| ⏳ SOC Level 1 | Planned | - |
+## ✅ Pre Security
+
+**Completed:** 3 July 2026  
+**Duration:** 19 hours 10 minutes
+
+[![Pre Security Certificate](certificates/pre-security-certificate.jpg)](certificates/pre-security-certificate.pdf)
+
+---
+
+## 🚧 Current Learning Path
+
+- Cyber Security 101 (In Progress)
+
+## 📅 Planned
+
+- Junior Penetration Tester
+- SOC Level 1
