@@ -207,7 +207,7 @@ Through this room, I learned:
 
 ## Completion Badge
 
-![Data Encoding](../assets/data-encoding.jpg)
+![Data Encoding](../../assets/data-encoding.jpg)
 
 Successfully completed the **Data Encoding** room on TryHackMe as part of my cybersecurity learning journey.
 
