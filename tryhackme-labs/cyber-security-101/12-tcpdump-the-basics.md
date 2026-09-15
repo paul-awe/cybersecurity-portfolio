@@ -958,4 +958,4 @@ Combined with Wireshark, it gives me both **GUI-based and command-line approache
 
 ## 📸 Proof of Completion
 
-![Tcpdump: The Basics](../../assets/12-tcpdump-the-bascis.jpg)
+![Tcpdump: The Basics](../../assets/12-tcpdump-the-basics.jpg)
