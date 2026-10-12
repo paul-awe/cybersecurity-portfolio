@@ -1166,7 +1166,7 @@ This room provided an important foundation for understanding secure communicatio
 
 ## 🏆 Completion Badge
 
-![TryHackMe Public Key Cryptography Basics Completion Badge](../assets/15-public-key-cryptography-basics.jpg)
+![TryHackMe Public Key Cryptography Basics Completion Badge](../../assets/15-public-key-cryptography-basics.jpg)
 
 **Status:** ✅ Completed — TryHackMe Cyber Security 101: Public Key Cryptography Basics
 
